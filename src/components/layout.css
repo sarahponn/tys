@@ -609,8 +609,9 @@ pre tt:after {
 .home-centered {
   max-width: 900px;
   margin: 0 auto;
-  padding: 3% 5% 0 5%;
+  padding: 2% 5% 0 5%;
   text-align: center;
+  height: calc(100vh - 120px);
 }
 
 img.logo {
@@ -644,9 +645,13 @@ input {
   width: 80%;
 }
 footer {
-  padding-bottom: 1rem;
-  margin-top: 5rem;
+  padding-top: 30px;
   font-size: .7em;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 @media only screen and (max-width: 480px) {
   html {

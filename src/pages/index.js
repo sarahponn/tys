@@ -18,7 +18,7 @@ const IndexPage = () => (
         <div>
           <input type="email" name="email" placeholder="your email" />
         </div>
-        <button type="submit">Subscribe</button>
+        <button type="submit">JOIN WHITELIST</button>
     </form>
     </div>
   </Layout>

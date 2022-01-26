@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, All Rights Reserved.
+          © {new Date().getFullYear()} Craft Boxing Ventures, All Rights Reserved.
         </footer>
       </div>
     </>
