@@ -616,9 +616,6 @@ img.logo {
   max-width: 200px;
   margin: 0 auto;
 }
-img {
-  filter: invert(1);
-}
 img.line {
   height: 250px;
 }
@@ -626,7 +623,7 @@ button {
   appearance: none;
   -webkit-appearance: none;
   background: none;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
   border: none;
   box-shadow: none;
