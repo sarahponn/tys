@@ -15,8 +15,7 @@ const Layout = ({ children }) => {
     <>
       <div
         style={{
-          background: '#000000',
-          color: '#ffffff',
+          color: '#000000',
           minHeight: '100vh',
           textAlign:'center'
         }}
