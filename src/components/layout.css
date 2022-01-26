@@ -617,9 +617,6 @@ img.logo {
   max-width: 200px;
   margin: 0 auto;
 }
-img.line {
-  max-height: 20vh;
-}
 button {
   appearance: none;
   -webkit-appearance: none;
