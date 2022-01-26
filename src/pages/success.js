@@ -1,5 +1,4 @@
 import React from "react"
-import Header from '../../static/assets/Header.png'
 import Logo from '../../static/assets/Logo.png'
 import Line from '../../static/assets/Line.png'
 
