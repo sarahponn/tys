@@ -1,21 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
+import Header from '../../static/assets/Header.png'
+import Logo from '../../static/assets/Logo.png'
+import Line from '../../static/assets/Line.png'
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="Kings of Rumble" />
+    <div className="home-centered">
+      <img src={Logo} className="logo" alt="Kings of Rumble" />
+      <img src={Header} alt="NFT Boxing Club" />
+      <img src={Line} className="line" alt="Divider" />
+      <form name="Contact Form" method="POST" data-netlify="true" action="/success">
+        <input type="hidden" name="form-name" value="Contact Form" />
+        <div>
+          <input type="email" name="email" placeholder="your email" />
+        </div>
+        <button type="submit">Subscribe</button>
+    </form>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
